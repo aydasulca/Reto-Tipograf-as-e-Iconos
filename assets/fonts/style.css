@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?33jgjv');
+  src:  url('../fonts/icomoon.eot?33jgjv#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?33jgjv') format('truetype'),
+    url('../fonts/icomoon.woff?33jgjv') format('woff'),
+    url('../fonts/icomoon.svg?33jgjv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ribbon:before {
+  content: "\e01e";
+}
+.icon-lightbulb:before {
+  content: "\e030";
+}
+.icon-diamond2:before {
+  content: "\e901";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-snapchat:before {
+  content: "\f2ab";
+}
+.icon-search:before {
+  content: "\e036";
+}
+.icon-instagram-with-circle:before {
+  content: "\e903";
+}
+.stylesi{
+    font-size: 25px;
+    color: #8F8F8F;
+    margin: 8.75px;
+}
+
+.styleM {
+  font-size: 30px;
+  color: #8F8F8F;
+}
+
+.stileSearch {
+  color: #8F8F8F;
+}
+.stileDiamond {
+  color: #17B974;
+  font-size: 25px;
+}
